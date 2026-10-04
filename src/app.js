@@ -3,7 +3,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send('<h1>Welcome Fellow CI/CD</h1>');
+  res.send('<h1>Hello DevOps</h1>');
 });
 
 // Only listen if run directly (allows importing in tests without locking the port)
